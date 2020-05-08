@@ -1,0 +1,137 @@
+#mainbg{
+    background-image: url("img/main.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-indigo{
+    background: indigo;
+}
+.jumbotron{
+    border-radius: 0 !important;
+}
+#searchbox{
+    width: 60vw;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+
+}
+#quote{
+    color: mintcream;
+    font-size: 34px;
+    font-style: oblique;
+    padding-top: 25vh;
+    width: 75vh;
+    text-align: center;
+    font-family: Trattatello;
+    font-weight: 700;
+}
+.form-check{
+    padding-left: 1px;
+}
+.h2{
+    padding-left: 2px;
+    font-size: 18px !important;
+}
+.element{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 14px;
+    color: black;
+}
+.element:hover{
+    text-decoration: none !important;
+}
+.right{
+    float: right;
+}
+.grey{
+    color: grey;
+    font-size: 13px;
+}
+.grey:hover{
+    color: grey;
+}
+.rounded {
+    border-radius: 1rem !important;
+}
+.category{
+    color: grey;
+    font-size: 12px;
+}
+.category:hover{
+    color: grey;
+    text-decoration: none;
+}
+.place{
+    color: #991C1C;
+    font-weight: bold;
+    font-size: 22px;
+}
+.place:hover{
+    text-decoration: none;
+    color: #991C1C;
+}
+.area{
+    font-size: 14px;
+    font-weight: bold;
+}
+.address{
+    font-size: 14px;
+}
+.rating{
+    background-color: #8BC64C;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    float: right;
+    display:block;
+}
+.votes{
+    font-size: 10px;
+    color: gray;
+    font-weight: 600;
+}
+.specs{
+    width: 160px !important;
+    font-size: 14px;
+    color: #504F4F;
+}
+.specsvalue{
+    font-size: 14px;
+    color: #504F4F;
+}
+.button{
+    border: grey solid 1px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+.inline{
+    display: inline-block;
+}
+.pagination > li > a
+{
+    color: black;
+}
+@media screen and (max-width: 700px) {
+    #searchbox{
+        width: 80vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    
+    }
+
+    #hide-on-small-screen{
+        display: none
+    }
+}
+
+
+
+
+
+

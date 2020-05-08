@@ -1,0 +1,73 @@
+.grey{
+    color: grey;
+    font-size: 13px;
+}
+.place{
+    color: #991C1C;
+    font-weight: bold;
+    font-size: 28px;
+}
+.rating{
+    background-color: #8BC64C;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    float: right;
+}
+.votes{
+    font-size: 10px;
+    color: gray;
+    font-weight: 600;
+}
+.address{
+    color: grey;
+    font-size: 15px;
+}
+.attribute{
+    font-size: 14px;
+}
+.value{
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+}
+.dark{
+    color: black !important;
+}
+.menucategory{
+    font-size: 20px;
+    font-weight: 400;
+    color: brown;
+}
+.item{
+    font-size: 18px;
+}
+.cost{
+    color: gray;
+    font-size: 17px;
+    font-weight: 450;
+}
+.description{
+    font-size: 14px;
+}
+.custom{
+    color: peru;
+}
+.h2{
+    font-size: 22px !important;
+}
+.h3{
+    font-size: 18px !important;
+}
+.btn{
+    width: 35px;
+}
+@media screen and (max-width: 700px) {
+    #searchbox{
+        width: 80vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    
+    }
+}
