@@ -1,0 +1,20 @@
+.jumbotron{
+    background-image: url(img/coffee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.poppin{
+    font-family: 'Poppins', sans-serif;
+}
+.mont{
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    margin-left: 5;
+}
+
+.borderTop {
+     border-top: 5px solid rgba(156, 39, 176, 0.7) !important;
+     border-top-left-radius: .25rem !important;
+     border-top-right-radius: .25rem !important;
+ }
